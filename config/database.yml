@@ -85,5 +85,4 @@ test:
 #
 production:
   <<: *default
-  database: avatar_app_production
   url: <%= ENV["DATABASE_URL"] %>
